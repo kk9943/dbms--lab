@@ -1,0 +1,14 @@
+CREATE TABLE :
+CREATE TABLE emp (
+    empno NUMBER,
+    empname VARCHAR2(255), 
+    DOB DATE,
+    salary NUMBER, 
+    designation VARCHAR2(20)
+);
+INSERT VALUES :
+INSERT INTO emp VALUES(100,'John','4.21.1994', 50000,'Manager');
+INSERT INTO emp VALUES(101,'Greg','6.20.1994',25000,'Clerk');
+DISPLAY VALUES:
+SELECT * FROM emp;
+SELECT empname,salary FROM emp;
